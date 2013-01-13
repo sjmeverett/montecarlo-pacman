@@ -3,12 +3,12 @@ package pacman.entries.pacman;
 import java.util.EnumMap;
 
 import pacman.controllers.Controller;
+import pacman.controllers.examples.Legacy;
+import pacman.controllers.examples.StarterPacMan;
 import pacman.entries.pacman.evaluators.DistanceToOpportunityEvaluator;
 import pacman.entries.pacman.evaluators.ITreeEvaluator;
 import pacman.entries.pacman.evaluators.PowerPillActiveEvaluator;
 import pacman.entries.pacman.evaluators.PowerPillDistanceEvaluator;
-import pacman.entries.pacman.models.Legacy;
-import pacman.entries.pacman.models.StarterPacMan;
 import pacman.entries.pacman.selectionpolicies.ISelectionPolicy;
 import pacman.entries.pacman.selectionpolicies.LevineUcbSelectionPolicy;
 import pacman.game.Constants.GHOST;
